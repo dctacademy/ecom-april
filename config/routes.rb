@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   resources :reviews
+  resources :orders
   resources :cart_line_items
   resources :categories 
   resources :products

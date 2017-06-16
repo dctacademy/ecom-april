@@ -2,6 +2,7 @@ class CartLineItemsController < ApplicationController
 
 	def index
 		@cart_line_items = current_user.cart_line_items
+		@order = Order.new
 	end
 
 	def create
