@@ -6,5 +6,6 @@ class User < ActiveRecord::Base
 
   has_many :reviews
   has_many :cart_line_items
+  has_many :orders
 
 end
